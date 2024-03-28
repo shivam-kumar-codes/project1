@@ -1,0 +1,77 @@
+.LandingPage {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .TextContainer {
+    flex: 1;
+    padding: 50px;
+  }
+  
+  .WelcomeText {
+    font-size: 24px; /* Decreased font size */
+  }
+  
+  .Description {
+    font-size: 24px; /* Increased font size */
+    margin-top: 10px;
+  }
+  
+  .Description strong {
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: 0 0 10px #F3B03D,
+    0 0 10px #F3B03D,
+    0 0 10px #F3B03D,
+    0 0 10px #F3B03D;
+  
+
+  }
+  
+  .img{
+    border-radius: 5%;
+    margin-right: 50px;
+    box-shadow:  0 10px 30px #F3B03D;
+  }
+  
+  .EarnMoneyButton {
+    /* background-color:  #F3B03D;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer; */
+    box-shadow: 0 8px 16px 0 rgba(144, 132, 1, 0.4), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+  
+  .ImageContainer {
+    flex: 1;
+    border-radius: 50%; /* Make the image container round */
+    margin: 20px;
+   box-shadow:  0 0 10px #F3B03D;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .LandingPage {
+      flex-direction: column;
+    }
+  
+    .TextContainer {
+      padding: 20px;
+      text-align: center;
+    }
+  
+    .EarnMoneyButton {
+      margin-top: 20px;
+    }
+  
+    .ImageContainer {
+      width: auto;
+      height: auto; /* Adjust the height as needed */
+    }
+  }
+
+  
+  

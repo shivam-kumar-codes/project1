@@ -1,0 +1,64 @@
+.Footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f9f9f9;
+    padding: 20px;
+  }
+  
+  .Logo {
+    max-width: 100px;
+  }
+  
+  .CenterSection {
+    flex-grow: 1;
+    text-align: center;
+  }
+  
+  .SocialIcons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .SocialIcons li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .SocialIcons li:last-child {
+    margin-right: 0;
+  }
+  
+  .SocialIcons img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .RightSection {
+    display: flex;
+  }
+  
+  .About,
+  .Contact {
+    margin-left: 20px;
+    cursor: pointer;
+  }
+  
+  /* Media query for small screens */
+  @media screen and (max-width: 768px) {
+    .Footer {
+      flex-direction: column; /* Change to column layout on smaller screens */
+      align-items: center; /* Align items to the start */
+    }
+  
+    .CenterSection {
+      margin-top: 20px; /* Add margin to center section */
+      text-align: left; /* Align text to the left */
+    }
+  
+    .RightSection {
+      margin-top: 20px; /* Add margin to right section */
+    }
+  }
+  

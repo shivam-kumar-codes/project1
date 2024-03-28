@@ -1,0 +1,50 @@
+.Section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    gap: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  
+  .SectionItem {
+    flex: 1;
+    display: flex; /* Add display flex */
+    align-items: center; /* Vertically center content */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px #F3B03D;
+  }
+  
+  .Content {
+    flex: 1; /* Expand content to fill remaining space */
+  }
+  
+  .Heading {
+    font-size: 24px;
+    margin-top: 10px;
+  }
+  
+  .Text {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  .Logo {
+    max-width: 100px;
+    margin-right: 20px; /* Add margin to separate logo from text */
+  }
+  
+
+@media screen and (max-width: 768px) {
+  .Section {
+    flex-direction: column; /* Change to column layout on smaller screens */
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .SectionItem {
+    margin-bottom: 20px; /* Add margin between items */
+  }
+}
